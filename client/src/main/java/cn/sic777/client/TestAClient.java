@@ -1,8 +1,8 @@
 package cn.sic777.client;
 
 import cn.sic777.start.config.ClientConfig;
-import cn.xlink.test.TestAReply;
-import cn.xlink.test.TestARequest;
+import cn.sic777.test.TestAReply;
+import cn.sic777.test.TestARequest;
 
 /**
  * Created by Zhengzhenxie on 2017/8/23.

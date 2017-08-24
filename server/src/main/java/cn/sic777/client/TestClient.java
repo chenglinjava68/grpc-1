@@ -1,9 +1,9 @@
 package cn.sic777.client;
 
-import cn.xlink.test.TestAReply;
-import cn.xlink.test.TestARequest;
-import cn.xlink.test.TestAServiceGrpc;
-import cn.xlink.test.TestBServiceGrpc;
+import cn.sic777.test.TestAReply;
+import cn.sic777.test.TestARequest;
+import cn.sic777.test.TestAServiceGrpc;
+import cn.sic777.test.TestBServiceGrpc;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 import java.util.concurrent.TimeUnit;

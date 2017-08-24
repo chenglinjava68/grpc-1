@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package test;
-option java_package = "cn.xlink.test";
+option java_package = "cn.sic777.test";
 option java_outer_classname = "TestProto";
 option java_multiple_files = true;
 

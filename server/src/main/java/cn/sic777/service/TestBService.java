@@ -1,8 +1,8 @@
 package cn.sic777.service;
 
-import cn.xlink.test.TestBReply;
-import cn.xlink.test.TestBRequest;
-import cn.xlink.test.TestBServiceGrpc;
+import cn.sic777.test.TestBReply;
+import cn.sic777.test.TestBRequest;
+import cn.sic777.test.TestBServiceGrpc;
 import io.grpc.stub.StreamObserver;
 
 /**

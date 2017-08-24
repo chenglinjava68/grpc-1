@@ -1,7 +1,7 @@
 package cn.sic777.start.config;
 
-import cn.xlink.test.TestAServiceGrpc;
-import cn.xlink.test.TestBServiceGrpc;
+import cn.sic777.test.TestAServiceGrpc;
+import cn.sic777.test.TestBServiceGrpc;
 import io.grpc.ManagedChannel;
 
 /**
