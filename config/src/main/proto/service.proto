@@ -1,0 +1,43 @@
+syntax = "proto3";
+
+package test;
+option java_package = "cn.xlink.test";
+option java_outer_classname = "TestProto";
+option java_multiple_files = true;
+
+//服务端接口类
+service TestAService {
+  //服务端接口方法
+  rpc testA (TestARequest) returns (TestAReply) {}
+}
+
+//请求参数
+message TestARequest {
+  string name = 1;
+  string sex = 2;
+  int32 tall = 3;
+}
+
+//响应参数
+message TestAReply {
+  string message = 1;
+}
+
+
+//服务端接口类
+service TestBService {
+  //服务端接口方法
+  rpc testB (TestBRequest) returns (TestBReply) {}
+}
+
+//请求参数
+message TestBRequest {
+  string name = 1;
+  string sex = 2;
+  int32 tall = 3;
+}
+
+//响应参数
+message TestBReply {
+  string message = 1;
+}
