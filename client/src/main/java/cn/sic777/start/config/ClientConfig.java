@@ -1,4 +1,4 @@
-package cn.xlink.start.config;
+package cn.sic777.start.config;
 
 import cn.xlink.test.TestAServiceGrpc;
 import cn.xlink.test.TestBServiceGrpc;

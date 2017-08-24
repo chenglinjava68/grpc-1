@@ -1,7 +1,7 @@
-package cn.xlink.start.config;
+package cn.sic777.start.config;
 
-import cn.xlink.service.TestAService;
-import cn.xlink.service.TestBService;
+import cn.sic777.service.TestAService;
+import cn.sic777.service.TestBService;
 import io.grpc.BindableService;
 import io.grpc.ServerBuilder;
 

@@ -1,4 +1,4 @@
-package cn.xlink.service;
+package cn.sic777.service;
 
 import cn.xlink.test.TestBReply;
 import cn.xlink.test.TestBRequest;

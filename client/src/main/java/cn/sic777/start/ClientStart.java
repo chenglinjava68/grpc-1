@@ -1,7 +1,7 @@
-package cn.xlink.start;
+package cn.sic777.start;
 
-import cn.xlink.client.TestAClient;
-import cn.xlink.start.config.ClientConfig;
+import cn.sic777.client.TestAClient;
+import cn.sic777.start.config.ClientConfig;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 

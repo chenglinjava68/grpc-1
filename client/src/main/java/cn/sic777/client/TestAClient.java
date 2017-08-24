@@ -1,6 +1,6 @@
-package cn.xlink.client;
+package cn.sic777.client;
 
-import cn.xlink.start.config.ClientConfig;
+import cn.sic777.start.config.ClientConfig;
 import cn.xlink.test.TestAReply;
 import cn.xlink.test.TestARequest;
 

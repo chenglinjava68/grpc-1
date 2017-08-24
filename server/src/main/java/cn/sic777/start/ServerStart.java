@@ -1,6 +1,6 @@
-package cn.xlink.start;
+package cn.sic777.start;
 
-import cn.xlink.start.config.ServerConfig;
+import cn.sic777.start.config.ServerConfig;
 import io.grpc.Server;
 import io.grpc.ServerBuilder;
 
