@@ -11,6 +11,7 @@
 
     <modules>
         <module>config</module>
+        <module>utils</module>
         <module>server</module>
         <module>client</module>
     </modules>
@@ -40,6 +41,7 @@
         <!-- dependency version-->
         <protobuf.version>3.2.0</protobuf.version>
         <grpc.version>1.0.0</grpc.version>
+        <cassandra.version>3.2.0</cassandra.version>
 
         <!-- plugin version-->
         <os-maven-plugin.version>1.4.1.Final</os-maven-plugin.version>
@@ -78,6 +80,18 @@
                 <groupId>cn.sic777</groupId>
                 <artifactId>config</artifactId>
                 <version>${project.version}</version>
+            </dependency>
+            <!-- utils-->
+            <dependency>
+                <groupId>cn.sic777</groupId>
+                <artifactId>utils</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <!--cassandra-->
+            <dependency>
+                <groupId>com.datastax.cassandra</groupId>
+                <artifactId>cassandra-driver-core</artifactId>
+                <version>${cassandra.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

@@ -2,7 +2,7 @@ package cn.sic777.start;
 
 import cn.sic777.start.args.ServerArgs;
 import cn.sic777.start.config.ServerConfig;
-import cn.sic777.start.contants.ServerContant;
+import cn.sic777.start.contants.ServerConstant;
 import io.grpc.Server;
 import io.grpc.ServerBuilder;
 
@@ -14,13 +14,23 @@ public class ServerStart {
 
     private Server server;
 
-    public static void main(String[] args) throws IOException, InterruptedException {
-        ServerArgs.load(args);
-        Properties pro = ServerConfig.instance().load(ServerArgs.CONFIG_PATH);
-        SERVER_PORT = Integer.parseInt(pro.getProperty(ServerContant.PRC_SERVER_PORT, "10000"));
+    public static void main(String[] args) throws Exception {
+        init(args);
         ServerStart server = new ServerStart();
         server.start();
         server.blockUntilShutdown();
+    }
+
+    /**
+     * 初始化
+     *
+     * @param args
+     */
+    private static void init(String[] args) throws Exception {
+        ServerArgs.load(args);
+        Properties pro = ServerConfig.instance().load(ServerArgs.CONFIG_PATH);
+
+        SERVER_PORT = Integer.parseInt(pro.getProperty(ServerConstant.PRC_SERVER_PORT, "10000"));
     }
 
     /**

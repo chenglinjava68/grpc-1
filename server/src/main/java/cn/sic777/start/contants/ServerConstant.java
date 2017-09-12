@@ -3,7 +3,7 @@ package cn.sic777.start.contants;
 /**
  * Created by Zhengzhenxie on 2017/9/8.
  */
-public interface ServerContant {
+public interface ServerConstant {
     /**
      * rpc服务器端口
      */
