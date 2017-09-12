@@ -1,5 +1,7 @@
 server/target/
 client/target/
 config/target/
+utils/target/
 
 *.iml
+
